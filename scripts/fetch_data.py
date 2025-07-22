@@ -8,9 +8,9 @@ def fetch_data():
     if response.status_code == 200:
         with open(OUTPUT, "wb") as f:
             f.write(response.content)
-        print("✅ Data downloaded successfully.")
+        print(" Data downloaded successfully.")
     else:
-        print("❌ Failed to download data.")
+        print(" Failed to download data.")
 
 if __name__ == "__main__":
     fetch_data()

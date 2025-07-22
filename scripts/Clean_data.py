@@ -18,7 +18,7 @@ def clean_data():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     df.to_csv(OUTPUT, index=False)
-    print("✅ Data cleaned and saved.")
+    print(" Data cleaned and saved.")
 
 if __name__ == "__main__":
     clean_data()

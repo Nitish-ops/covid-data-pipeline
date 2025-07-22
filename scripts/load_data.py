@@ -30,7 +30,7 @@ def load_data():
 
     conn.commit()
     conn.close()
-    print("✅ Data loaded into SQLite database.")
+    print(" Data loaded into SQLite database.")
 
 if __name__ == "__main__":
     load_data()
